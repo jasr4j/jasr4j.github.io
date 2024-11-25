@@ -1,0 +1,80 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #EEE;
+    background-image: url("file:///home/superlinux64/Desktop/Coding Projects/jasraj.html Framework/Image Files/Sky.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a {
+    font-style: italic;
+    text-decoration: none;
+    color: red;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+#container {
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: #66CCFF;
+    color: white;
+    padding: 10px;
+}
+
+#banner {
+    background-color: #66CCFF;
+    padding: 100px;
+    background-image: url("file:///home/superlinux64/Desktop/Coding Projects/jasraj.html Framework/Image Files/AI River.png");
+
+}
+
+#content {
+    padding: 10px;
+}
+
+#return {
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#nav .selected {
+    font-weight: 600;
+}
+
+#nav ul {
+    margin: 20px;
+    padding: 3px;
+    list-style-type: square;
+    font-size: 16px;
+}
+
+#main {
+    width: 800px;
+    height: 500px;
+    float: right;
+    font-size: 16px;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right
+}
