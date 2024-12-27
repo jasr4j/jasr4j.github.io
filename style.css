@@ -1,7 +1,7 @@
 body {
     font-family: 'Courier New', monospace;
     background-color: #EEE;
-    background-image: url("file:///home/superlinux64/Desktop/Coding Projects/jasraj.html Framework/Image Files/Sky.png");
+    background-image: url("/Images/Sky.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -35,7 +35,7 @@ h3 {
 #banner {
     background-color: #66CCFF;
     padding: 100px;
-    background-image: url("file:///home/superlinux64/Desktop/Coding Projects/jasraj.html Framework/Image Files/AI River.png");
+    background-image: url("/Images/AI River.png");
 
 }
 
