@@ -78,3 +78,7 @@ h3 {
     color: white;
     text-align: right
 }
+
+#projects ul {
+    list-style-type: square;
+}
