@@ -14,7 +14,7 @@
 	font-display: swap; 
 }
 
-@media screen {
+@media screen and (max-width: 992px){
 	body {
 		font-family: "inter";
 		background-color: #eee;
@@ -23,8 +23,8 @@
 		background-position: center center;
 		margin: 0; 
 		padding: 0;
-		font-size: 1.75vw;
-		line-height: 2em;
+		font-size: 18px;
+		line-height: 6vw;
 	}
 
 	#nav a {
@@ -45,19 +45,11 @@
 		margin: 0;
 	}
 
-
-	#header {
-		background-color: #66ccff;
-		color: white;
-		padding: 2vw;
-	}
-
 	#banner {
 		position: fixed; 
 		top: 0; 
 		width: 101vw; 
 		background-color: #66ccff;
-		padding-top: 10vh; 
 		z-index: 1000;
 		background-image: url("assets/images/AI\ River.png");
 		background-size: cover; 
@@ -69,8 +61,11 @@
 	}
 
 	#content {
+		display: flex; 
 		padding: 0vw;
-		margin-top: 15vh;
+		padding-top: 15vh;
+		overflow-y: scroll; 
+		overflow-wrap: break-word; 
 	}
 
 	#nav {
@@ -101,7 +96,7 @@
 
 	#main {
 		width: 80vw;
-		height: 74.2vh;
+		height: 80vh;
 		float: left;
 		margin-left: 10vw;
 		margin-right: 10vw;
