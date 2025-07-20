@@ -1,12 +1,30 @@
+@font-face {
+	font-family: inter; 
+	src: url(assets/Inter/Inter-VariableFont_opsz\,wght.ttf) format('truetype-variations'); 
+	font-weight: 1 999;
+	font-style: normal; 
+	font-display: swap; 
+}
+
+@font-face {
+	font-family: inter;
+	src: url(assets/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf) format('truetype-variations'); 
+	font-weight: 1 999;
+	font-style: italic; 
+	font-display: swap; 
+}
+
 @media screen {
 	body {
-		font-family: "Courier New", monospace;
+		font-family: "inter";
 		background-color: #eee;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
 		margin: 0; 
 		padding: 0;
+		font-size: 1.75vw;
+		line-height: 2em;
 	}
 
 	#nav a {
@@ -55,11 +73,6 @@
 		margin-top: 15vh;
 	}
 
-	#return {
-		font-family: "Courier New", monospace;
-		font-size: 5vw;
-	}
-
 	#nav {
 		position: relative; 
 		z-index: 2; 
@@ -77,7 +90,6 @@
 		margin: 0.8vw;
 		padding: 3;
 		list-style: none;
-		font-size: 1.75vh;
 	}
 
 	#nav li {
@@ -88,12 +100,11 @@
 	}
 
 	#main {
-		width: 50vw;
+		width: 80vw;
 		height: 74.2vh;
 		float: left;
-		font-size: 1.75vh;
-		padding-left: 10vw;
-		padding-right: 10vw;
+		margin-left: 10vw;
+		margin-right: 10vw;
 	}
 
 	#footer {
@@ -104,7 +115,13 @@
 		padding: 1.8vh;
 		background-color: #999999;
 		color: white;
+		margin-right: 10vw;
 		text-align: right;
+	}
+
+	#footnote {
+		text-align:right; 
+		margin-right: 5vw;
 	}
 
 	#projects ul {
