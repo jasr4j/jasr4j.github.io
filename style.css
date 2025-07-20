@@ -1,83 +1,113 @@
-body {
-	font-family: "Courier New", monospace;
-	background-color: #eee;
-	background-image: url("assets/images/Sky.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
+@media screen {
+	body {
+		font-family: "Courier New", monospace;
+		background-color: #eee;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin: 0; 
+		padding: 0;
+	}
 
-a {
-	font-style: italic;
-	text-decoration: none;
-	color: red;
-}
+	#nav a {
+		font-style: italic;
+		text-decoration: none;
+		color: white;
+	}
 
-h1,
-h2,
-h3 {
-	margin: 0;
-}
+	#main a {
+		font-style: italic;
+		text-decoration: none;
+		color: red;
+	}
 
-#container {
-	background-color: white;
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-}
+	h1,
+	h2,
+	h3 {
+		margin: 0;
+	}
 
-#header {
-	background-color: #66ccff;
-	color: white;
-	padding: 10px;
-}
 
-#banner {
-	background-color: #66ccff;
-	padding: 100px;
-	background-image: url("assets/images/AI\ River.png");
-}
+	#header {
+		background-color: #66ccff;
+		color: white;
+		padding: 2vw;
+	}
 
-#content {
-	padding: 10px;
-}
+	#banner {
+		position: fixed; 
+		top: 0; 
+		width: 101vw; 
+		background-color: #66ccff;
+		padding-top: 10vh; 
+		z-index: 1000;
+		background-image: url("assets/images/AI\ River.png");
+		background-size: cover; 
+		background-position: center;
+		background-repeat: no-repeat;
+		display: flex; 
+		justify-content: flex-start;
+		align-items: right; 
+	}
 
-#return {
-	font-family: "Courier New", monospace;
-	font-size: 16px;
-}
+	#content {
+		padding: 0vw;
+		margin-top: 15vh;
+	}
 
-#nav {
-	width: 180px;
-	float: left;
-}
+	#return {
+		font-family: "Courier New", monospace;
+		font-size: 5vw;
+	}
 
-#nav .selected {
-	font-weight: 600;
-}
+	#nav {
+		position: relative; 
+		z-index: 2; 
+		width: 101vw;
+		background-color: rgba(255, 255, 255, 0.15); 
+		text-align: right;
+		padding-right: 5vw;
+	}
 
-#nav ul {
-	margin: 20px;
-	padding: 3px;
-	list-style-type: square;
-	font-size: 16px;
-}
+	#nav .selected {
+		font-weight: 600;
+	}
 
-#main {
-	width: 800px;
-	height: 500px;
-	float: right;
-	font-size: 16px;
-}
+	#nav ul {
+		margin: 0.8vw;
+		padding: 3;
+		list-style: none;
+		font-size: 1.75vh;
+	}
 
-#footer {
-	clear: both;
-	padding: 10px;
-	background-color: #999999;
-	color: white;
-	text-align: right;
-}
+	#nav li {
+		display: inline-block;
+		margin-right: 2vw; 
+		margin-bottom: 0;
+		vertical-align: middle; 
+	}
 
-#projects ul {
-	list-style-type: square;
+	#main {
+		width: 50vw;
+		height: 74.2vh;
+		float: left;
+		font-size: 1.75vh;
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+
+	#footer {
+		position:fixed; 
+		bottom: 0;
+		width: 101vw;
+		clear: both;
+		padding: 1.8vh;
+		background-color: #999999;
+		color: white;
+		text-align: right;
+	}
+
+	#projects ul {
+		list-style-type: square;
+	}
 }
