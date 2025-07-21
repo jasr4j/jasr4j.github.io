@@ -25,6 +25,7 @@
 		padding: 0;
 		font-size: 18px;
 		line-height: 2vw;
+		overflow-y: scroll;
 	}
 
 	#nav a {
@@ -63,9 +64,8 @@
 	#content {
 		display: flex; 
 		padding: 0vw;
-		padding-top: 15vh;
-		margin-bottom: 10vh;
-		overflow-y: scroll; 
+		margin-top: 15vh;
+		margin-bottom: 20vh;
 		overflow-wrap: break-word; 
 		line-height: 3vw;
 	}
@@ -98,7 +98,6 @@
 
 	#main {
 		width: 80vw;
-		height: 80vh;
 		float: left;
 		margin-left: 10vw;
 		margin-right: 10vw;
