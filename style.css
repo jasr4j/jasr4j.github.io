@@ -24,8 +24,6 @@
 		margin: 0; 
 		padding: 0;
 		font-size: 18px;
-		line-height: 2vw;
-		overflow-y: scroll;
 	}
 
 	#nav a {
@@ -34,7 +32,7 @@
 		color: white;
 	}
 
-	#main a {
+	#content a {
 		font-style: italic;
 		text-decoration: none;
 		color: red;
@@ -62,12 +60,16 @@
 	}
 
 	#content {
-		display: flex; 
 		padding: 0vw;
 		margin-top: 15vh;
 		margin-bottom: 20vh;
 		overflow-wrap: break-word; 
-		line-height: 3vw;
+		line-height: 120%;
+		width: 80vw;
+		float: left;
+		margin-left: 10vw;
+		margin-right: 10vw;
+
 	}
 
 	#nav {
@@ -96,13 +98,6 @@
 		vertical-align: middle; 
 	}
 
-	#main {
-		width: 80vw;
-		float: left;
-		margin-left: 10vw;
-		margin-right: 10vw;
-	}
-
 	#footer {
 		position:fixed; 
 		bottom: 0;
@@ -118,9 +113,5 @@
 	#footnote {
 		text-align:right; 
 		margin-right: 5vw;
-	}
-
-	#projects ul {
-		list-style-type: square;
 	}
 }
