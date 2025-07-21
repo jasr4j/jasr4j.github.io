@@ -14,7 +14,7 @@
 	font-display: swap; 
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
 	body {
 		font-family: "inter";
 		background-color: #eee;
@@ -24,6 +24,7 @@
 		margin: 0; 
 		padding: 0;
 		font-size: 18px;
+		overflow-y: auto; 
 	}
 
 	#nav a {
