@@ -1,45 +1,31 @@
 #lang pollen
-
 ### Skills: 
 
-* Linux
-* Git & GitHub
-* Docker
-* Low level Programming
-* Machine Learning
-* Computer Hardware fixing
+Linux, Git & GitHub, Docker & Containerization, Low Level Programming, Web Development, Machine Learning, Computer Hardware Repair
 
-### Programming Languages
+### Programming Languages: 
 
-* Python
-* C
-* C++
-* Shell
-* Java
-* Scheme/Racket
-* HTML & CSS
+C, C++, Python, Shell, Java, HTML, CSS, JavaScript, Racket
 
 ### Projects: 
 
-Many of my projects can be found on GitHub. 
-
+You can find my projects on [my GitHub page](https://github.com/developerC76).  
 Some examples are: 
 
 * [snowleopard]("https://github.com/developerC76/snowleopard): A small set of projects made in C and x86 Assembly related to systems programming, including memory allocators and an x86 kernel
 * [ml](https://github.com/developerC76/ml): Linear and multivariate regression models coded in C, along with a custom CSV parser
 * [projectile-motion-euler](https://github.com/developerC76/projectile-motion-euler): Python scripts which can allow us to visualize projectile motion based on given parameters, in 3 different ways
 
-### More about me
+### More about me:
 
 I do a little bit of programming on <a href="https://codeforces.com/profile/ashirvad2">CodeForces</a> and <a href="https://leetcode.com/u/developerC76/">LeetCode</a>. 
 
-![](https://raw.githubusercontent.com/developerc76/cf-stats/main/output/light_card.svg) 
-![](https://leetcard.jacoblin.cool/developerc76?theme=dark&font=Inter)
+I'm also interested in Cybersecurity, along with computing and server hardware. 
 
-I'm also interested in Cybersecurity and computing and server hardware. 
+I currently would like to learn more about web technologies, self-hosting, ethical hacking, competitive programming theory, and low level coding, especially in C and Rust. 
 
-### Competitions
+### Competitions:
 
 * CyberPatriot XVII: Gold Division Semifinalist (Linux & Boeing Challenge Specialization)
-* MCPS HSF Base Division 1st Place
+* MCPS High School Forensics Competition (Base Division) 1st Place
 * Participant in eCitadel 2025 (Linux Specialization)
