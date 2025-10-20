@@ -1,6 +1,6 @@
 </div>
         <div id="footer">
-                <div id="footnote">This site is made with <a href="https://github.com/developerC76/docs-template/">docs-template</a>. Copyright &copy; 2025</div>
+                <div id="footnote">This site is made with <a href="https://github.com/jasr4j/docs-template/">docs-template</a>. Copyright &copy; 2025</div>
         </div>
 </body>
 </html>
